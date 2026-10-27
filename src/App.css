@@ -5,13 +5,13 @@ body {
   background-image: linear-gradient(to bottom, #020917, #101725);
 }
 
-.content {
+.background {
   display: flex;
   min-height: 100vh;
   line-height: 1.1;
   text-align: center;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .content h1 {
@@ -24,3 +24,4 @@ body {
   font-weight: 400;
   opacity: 0.5;
 }
+
