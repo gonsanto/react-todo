@@ -1,0 +1,9 @@
+.todo-interface {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 1.875rem;
+  border-radius: 1rem;
+  width: 56.25rem;
+  border: 0.125rem solid #212529b3;
+  background-color: #EDEDED;
+}

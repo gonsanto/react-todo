@@ -1,9 +1,11 @@
-import './App.css';
-import Interface from './Interface.tsx';
+import './App.css'
+import Interface from './Interface/Interface.tsx';
 
 const App = () => {
   return (
-    <main className='background'>
+    <main 
+    className='background'
+    >
       <Interface />
     </main>
   );
