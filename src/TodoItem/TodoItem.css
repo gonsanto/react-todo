@@ -1,0 +1,11 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    gap: 2rem;
+    min-height: 2.813rem;
+    width: 100%;
+    border: 0.15rem solid #ddd;
+    background-color: #DEE2E6;
+    color: black;
+}
