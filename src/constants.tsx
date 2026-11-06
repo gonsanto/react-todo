@@ -14,4 +14,8 @@ export const constants = {
   todoInterfaceClassName: 'todo-interface',
   todoListClassName: 'todo-list',
   todoItemClassName: 'todo-item',
+
+  failedTo: {
+    load: 'Failed to load todos from the server:',
+  },
 };
