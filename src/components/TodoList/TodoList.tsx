@@ -13,7 +13,7 @@ function getTodos() {
   if (!fetchTodos) {
     fetchTodos = fetch(fetchUrl).then((response) => {
       if (!response.ok) {
-        throw new Error(failedTo.load + response.ok);
+        throw new Error(failedTo.load + response.status);
       }
       return response.json();
     });
